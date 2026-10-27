@@ -1,3 +1,9 @@
+"""
+Exercise: 03 - Most Frequent Character
+Write a program that lets the user enter a string of characters (sentence) and then displays the character that
+appears most frequently in the string.
+"""
+
 def main():
     use = []
     user = input("Enter a string: ").upper()

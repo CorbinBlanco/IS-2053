@@ -1,3 +1,12 @@
+"""
+Exercise: 03 - Roman Numerals
+Write a program that prompts the user to enter a number within the range of 1 through 20.
+The program should display the Roman numeral version of that number. If the number is outside
+the range of 1 through 20, the program should display an error message.
+
+The following table shows the Roman numerals for the numbers 1 through 20:
+"""
+
 user = int(input("Enter an integer from 1 - 20: "))
 
 

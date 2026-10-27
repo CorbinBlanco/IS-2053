@@ -1,18 +1,17 @@
+"""
+Exercise: 02 - Rainfall Statistics
+Design a program that lets the user enter the total rainfall for each of 12 months into a list. The program
+should calculate and display the total rainfall for the year, the average monthly rainfall, the months with
+the highest and lowest amounts.
+"""
+
 def main():
 
     rainfall = []
 
-
-
     print("***************************")
     print("*** Rainfall Statistics ***")
     print("***************************")
-
-
-
-
-
-
 
     rainfall.append(["January",(float(input("Enter the rainfall for January: ")))])
     rainfall.append(["February",(float(input("Enter the rainfall for February: ")))])
@@ -64,7 +63,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-

@@ -1,3 +1,12 @@
+"""
+Exercise: 01 - Property Tax
+A county collects property taxes on the assessment value of property, which is 75 percent of the property’s actual value.
+For example, if an acre of land is valued at $13,333.33, its assessment value is $10,000. The property tax is then $1.11
+for each $100 of the assessment value. The tax for the acre assessed at $10,000 will be $111.00. Write a program that
+asks for the actual value of a piece of property and displays the assessment value and property tax.
+"""
+
+
 
 def main():
     actual_value = float(input("Enter the actual property value: "))

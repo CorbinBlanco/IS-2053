@@ -1,4 +1,11 @@
-
+"""
+Exercise: 03 - Minimum Value - Maximum Value - Same Value
+Write functions for minimum value, maximum value and same value that accepts three integer values as arguments
+and returns if they are the same. If not it will return the value that is the minimum value of the three and also the
+value that is the maximum of the three values. For example, if 3, 3, 3 are passed as arguments, the program will
+display that all three numbers are the same. If 1, 2, 3 are passed as arguments, the program will display which value
+is the minimum and which value is the maximum.
+"""
 
 def find_status(num1, num2, num3):
     minimum = num1

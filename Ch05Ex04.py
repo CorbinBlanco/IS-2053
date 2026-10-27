@@ -1,3 +1,15 @@
+"""
+Exercise: 04 - Test Average and Grade
+Write a program that asks the user to enter eight test scores. The program should display a letter grade for each score
+and the average test score in a table format.
+
+Write the following functions in the program:
+
+calc_average. This function should accept eight test scores as arguments and return the average of the scores.
+determine_grade. This function should accept a test score as an argument and return a letter grade for the score
+based on the following grading scale:
+"""
+
 def calc_average(s1, s2, s3, s4, s5, s6, s7, s8):
     average = (s1+s2+s3+s4+s5+s6+s7+s8) / 8
     return average

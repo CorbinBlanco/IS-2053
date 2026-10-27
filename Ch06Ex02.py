@@ -1,3 +1,8 @@
+"""
+Write a program that reads all of the numbers stored in the file(numbers.txt) and then displays the calculated total
+of all the numbers.
+"""
+
 def main():
     with open("numbers.txt") as file:
         total = 0
